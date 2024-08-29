@@ -1,29 +1,5 @@
 # Telco Customer Churn Analysis
 
-## Steps Performed
-
-### 1. Data Preprocessing
-- **Handling Missing Values**: The dataset had missing values in the `TotalCharges` column. These values were imputed based on the business understanding and the distribution of the feature.
-- **Data Type Corrections**: Converted the `TotalCharges` column from object type to numeric.
-
-### 2. Exploratory Data Analysis (EDA)
-- **Univariate Analysis**: Analyzed the distribution of each feature individually using histograms, bar charts, and box plots.
-- **Bivariate Analysis**: Investigated the relationships between features and the target variable `Churn` to understand which factors influence churn.
-- **Correlation Analysis**: Examined correlations between numerical features to identify multicollinearity.
-
-### 3. Feature Engineering
-- **Feature Creation**: Created new features based on existing data, such as grouping tenure into categories (e.g., short-term, long-term).
-- **Categorical Encoding**: Converted categorical variables into numerical format using Label Encoding for better compatibility with machine learning models.
-
-### 4. Label Encoding
-- Applied Label Encoding on binary categorical features such as `gender`, `Partner`, and `Churn`, converting them into 0 and 1 values for model compatibility.
-
-## Conclusion
-This project provides an in-depth exploration of the Telco Customer Churn dataset, revealing key insights into customer behavior and the factors that lead to churn. The analysis serves as a foundation for building predictive models that can help the telecom company retain its customers.
-
-
-# Telco Customer Churn Analysis
-
 ## Project Overview
 This project aims to analyze customer churn behavior in the telecom industry using the **Telco Customer Churn** dataset. Customer churn refers to the scenario where customers stop using a company's services. The primary goal of this project is to uncover insights related to customer churn and understand key factors influencing churn behavior. This analysis is crucial for telecom companies to identify patterns that lead to churn and take proactive steps to retain their customers.
 
