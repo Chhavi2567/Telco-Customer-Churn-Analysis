@@ -43,6 +43,7 @@ The Telco Customer Churn dataset consists of 21 columns, including demographic, 
 
 ### 1. Data Preprocessing
 - **Handling Missing Values**: The `TotalCharges` column had missing values, which were handled through imputation.
+- **Removing Unnecessary Columns**: The `customerID` column was removed as it was not relevant for the analysis.
 - **Data Type Adjustments**: Converted the `TotalCharges` column from object type to numeric, which allowed for further analysis.
 - **Outlier Detection and Handling**: Identified and handled outliers where necessary to ensure the accuracy of the analysis.
 
@@ -52,8 +53,7 @@ The Telco Customer Churn dataset consists of 21 columns, including demographic, 
 - **Churn Analysis**: Explored key factors such as contract type, tenure, and payment methods to determine their influence on customer churn rates.
 
 ### 3. Feature Engineering
-- **Feature Transformation**: Created new features like tenure groups (short-term, long-term) to enhance the model's predictive power.
-- **Categorical Encoding**: Categorical features were converted into numerical format using Label Encoding, making them ready for machine learning algorithms.
+- No additional features were created in this analysis.
 
 ### 4. Label Encoding
 - **Binary and Multiclass Encoding**: Binary categorical variables like `gender`, `Partner`, and `Churn` were encoded as 0 and 1. Multiclass categorical features such as `Contract` and `PaymentMethod` were encoded into numerical labels.
