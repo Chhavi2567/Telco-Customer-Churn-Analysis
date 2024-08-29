@@ -59,10 +59,13 @@ The Telco Customer Churn dataset consists of 21 columns, including demographic, 
 - **Binary and Multiclass Encoding**: Binary categorical variables like `gender`, `Partner`, and `Churn` were encoded as 0 and 1. Multiclass categorical features such as `Contract` and `PaymentMethod` were encoded into numerical labels.
 
 ## Key Insights from the Analysis
-- **Contract Type**: Customers with month-to-month contracts are more likely to churn compared to those with one or two-year contracts. This suggests that longer contract durations could reduce churn.
-- **Tenure**: Customers who have stayed with the company for a shorter period are more likely to churn. Retention strategies should focus on newer customers.
-- **Payment Method**: Customers who use electronic checks as their payment method tend to churn more compared to those who use automatic payments like bank transfers or credit cards.
-- **Service Subscription**: Customers without internet service and those not subscribed to premium services like streaming TV or movies show higher churn rates, indicating a possible relationship between service usage and customer loyalty.
+1. **Contract Type**: Customers with month-to-month contracts are more likely to churn compared to those with one or two-year contracts. This suggests that longer contract durations could reduce churn.
+2. **Tenure**: Customers who have stayed with the company for a shorter period are more likely to churn. Retention strategies should focus on newer customers.
+3. **Payment Method**: Customers who use electronic checks as their payment method tend to churn more compared to those who use automatic payments like bank transfers or credit cards.
+4. **Service Subscription**: Customers without internet service and those not subscribed to premium services like streaming TV or movies show higher churn rates, indicating a possible relationship between service usage and customer loyalty.
+5. **Senior Citizens**: Senior citizens have a slightly higher churn rate compared to non-senior citizens. This could indicate a need for targeted services or support for this demographic.
+6. **Multiple Services**: Customers who subscribe to multiple services, such as phone, internet, and streaming services, tend to have lower churn rates. Offering attractive bundles could be a strategy to retain customers.
+7. **Tech Support and Online Security**: Customers without tech support or online security services show a higher churn rate. This suggests that these services add value to the customer experience and help with retention.
 
 ## Suggestions to Reduce Churn
 Based on the insights from the analysis, here are some actionable suggestions for the company to reduce churn:
